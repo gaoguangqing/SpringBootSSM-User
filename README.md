@@ -373,3 +373,13 @@ http://localhost:7900/user/delete/6
 删除成功
 ```
 
+http://localhost:7900/user/update/zhangdaqian/nanjing/1995-04-07/1
+```
+2018-11-12 23:14:50.337 DEBUG 5072 --- [nio-7900-exec-1] com.spoon.mapper.UserMapper.updateById   : ==>  Preparing: UPDATE user SET `name`=?, birthday=?, address=? WHERE id=? 
+2018-11-12 23:14:50.408 DEBUG 5072 --- [nio-7900-exec-1] com.spoon.mapper.UserMapper.updateById   : ==> Parameters: zhangdaqian(String), 1995-04-07 00:00:00.0(Timestamp), nanjing(String), 1(Integer)
+2018-11-12 23:14:50.424 DEBUG 5072 --- [nio-7900-exec-1] com.spoon.mapper.UserMapper.updateById   : <==    Updates: 1
+```
+```
+修改成功
+```
+
