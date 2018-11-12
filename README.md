@@ -1,6 +1,8 @@
 # SpringBootSSM-User 使用MyBatis Plus
 SpringBoot整合SSM-User例子
 
+使用SpringBoot + Mybatis + MybatisPlus(MP) 全新注解方式，自动产生SQL语句，替代旧的通用Mapper。旧的通用Mapper是基于Mybatis拦截器的机制，而新的MybatisPlus是基于注解扫描机制，在启动服务时就进行加载，所以性能比旧的通用Mapper方式高很多。
+
 使用user.sql建库建表
 ```
 CREATE DATABASE school CHARSET utf8;
